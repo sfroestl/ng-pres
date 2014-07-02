@@ -55,11 +55,10 @@ Resulting HTML
 
 ---
 
-# Directives
 
-Build in directives like
+# Build in directives like
 
-*ng-repeat*, *ng-if*, *ng-bind*
+*ng-repeat*, *ng-if*, *ng-bind*, *ng-hide*
 
 
 ---
@@ -142,3 +141,8 @@ Scope hierarchy *reflects* DOM hierarchy
 - Strong Testability
 - Views and Routes
 - Animations
+- Services
+
+---
+
+by *Sebastian Fröstl* | Small Improvements
