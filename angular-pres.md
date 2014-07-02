@@ -29,7 +29,9 @@ HTML
                 <input ng-model="name">
                 <div>{{name}}</div>
 ```
+
 ---
+
 app.js
 
 ``` js
@@ -43,6 +45,7 @@ Resulting HTML
 ``` html
                   <div>François</div>
 ```
+
 ---
 
 # Directives
@@ -60,6 +63,7 @@ Build in directives like
 
 
 ---
+
 HTML
 
 ```html
@@ -67,7 +71,9 @@ HTML
                     list="['baguette', 'fromage']">
                 </shopping-list>
 ```
+
 ---
+
 shopping-list-directive.js
 
 ```js
@@ -81,6 +87,7 @@ shopping-list-directive.js
 ```
 
 ---
+
 shopping-list.html
 
 
@@ -93,14 +100,16 @@ shopping-list.html
 ```
 
 ---
+
 Resulting HTML
 
 ```html
                 <ul>
                     <li>baguette</li>
-                    <li>cheese</li>
+                    <li>fromage</li>
                 </ul>
 ```
+
 ---
 
 
